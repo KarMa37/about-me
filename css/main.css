@@ -174,15 +174,14 @@ header {
 
 .learn-logs svg {
     filter: grayscale(100%);
-    /*transition: filter 600ms ease;*/
     padding-bottom: 20px;
 }
 
-svg {
-    width: 60%;
+.learn-logs svg {
+    width: 80%;
 }
 
-svg:hover {
+.learn-logs svg:hover {
     filter: grayscale(0%);
     transition: filter 600ms ease;
     cursor: crosshair;
@@ -206,29 +205,7 @@ footer a:hover {
 }
 
 @media (min-width: 992px) {
-    .learn-logs-next svg {
-        width: 70%;
+    .learn-logs svg {
+        width: 90%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
